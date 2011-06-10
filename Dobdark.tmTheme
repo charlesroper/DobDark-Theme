@@ -20,7 +20,7 @@
                     <key>lineHighlight</key>
                     <string>#00000031</string>
                     <key>selection</key>
-                    <string>#FF000075</string>
+                    <string>#FF0000BD</string>
                     <key>gutter</key>
                     <string>#000000</string>
                     <key>searchHighlight</key>
@@ -91,6 +91,17 @@
                 </dict>
                 <key>scope</key>
                 <string>keyword.operator, punctuation.separator, puctuation</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Keyword.operators (Python)</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#BA41AE</string>
+                </dict>
+                <key>scope</key>
+                <string>source.python keyword.operator</string>
             </dict>
             <dict>
                 <key>name</key>
