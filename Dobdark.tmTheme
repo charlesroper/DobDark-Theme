@@ -29,6 +29,10 @@
                     <string>#000000</string>
                     <key>bracketHighlight</key>
                     <string>#296D1B82</string>
+                    <key>findHighlight</key>
+                    <string>#FFE792</string>
+                    <key>findHighlightForeground</key>
+                    <string>#000000</string>
                 </dict>
             </dict>
             <dict>
@@ -38,10 +42,8 @@
                 <string>comment</string>
                 <key>settings</key>
                 <dict>
-                    <key>fontStyle</key>
-                    <string>italic</string>
                     <key>foreground</key>
-                    <string>#8A8A8A</string>
+                    <string>#666666</string>
                 </dict>
             </dict>
             <dict>
