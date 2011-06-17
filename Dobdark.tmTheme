@@ -21,6 +21,8 @@
                     <string>#00000031</string>
                     <key>selection</key>
                     <string>#FF0000BD</string>
+                    <key>selectionForeground</key>
+                    <string>#FFFFFF</string>
                     <key>gutter</key>
                     <string>#000000</string>
                     <key>searchHighlight</key>
