@@ -633,6 +633,17 @@
                 <key>scope</key>
                 <string>source.sass, meta.variable-usage.sass, meta.variable-declaration.sass</string>
             </dict>
+            <dict>
+                <key>name</key>
+                <string>$sass.@at-rule</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#5886D1</string>
+                </dict>
+                <key>scope</key>
+                <string>source.scss keyword.control.at-rule</string>
+            </dict>
         </array>
         <key>uuid</key>
         <string>7009FEEB-0984-457A-BF7A-49943CD00A8B</string>
