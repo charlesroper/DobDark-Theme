@@ -348,7 +348,7 @@
                     <key>foreground</key>
                     <string>#FFFFFF</string>
                     <key>background</key>
-                    <string>#232323</string>
+                    <string>#00000050</string>
                 </dict>
                 <key>scope</key>
                 <string>entity.name.function, entity.name.type.class</string>
