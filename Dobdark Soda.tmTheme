@@ -461,8 +461,6 @@
                 <dict>
                     <key>foreground</key>
                     <string>#FFAC00</string>
-                    <key>background</key>
-                    <string>#2D2D2D</string>
                 </dict>
             </dict>
             <dict>
