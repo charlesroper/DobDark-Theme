@@ -10,7 +10,7 @@
                 <key>settings</key>
                 <dict>
                     <key>background</key>
-                    <string>#212121</string>
+                    <string>#222222</string>
                     <key>caret</key>
                     <string>#A5A5A5</string>
                     <key>foreground</key>
@@ -35,6 +35,8 @@
                     <string>#FFE792</string>
                     <key>findHighlightForeground</key>
                     <string>#000000</string>
+                    <key>activeGuide</key>
+                    <string>#CCCCCCB0</string>
                 </dict>
             </dict>
             <dict>
