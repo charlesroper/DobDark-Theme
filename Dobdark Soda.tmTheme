@@ -20,9 +20,7 @@
                     <key>lineHighlight</key>
                     <string>#00000031</string>
                     <key>selection</key>
-                    <string>#FF0000BD</string>
-                    <key>selectionForeground</key>
-                    <string>#FFFFFF</string>
+                    <string>#494949</string>
                     <key>gutter</key>
                     <string>#000000</string>
                     <key>searchHighlight</key>
