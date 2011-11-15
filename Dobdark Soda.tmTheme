@@ -210,10 +210,12 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#B3FFC6</string>
+                    <string>#D7D7D7</string>
+                    <key>background</key>
+                    <string>#1C1C1C</string>
                 </dict>
             </dict>
-            <dict>
+<!--             <dict>
                 <key>name</key>
                 <string>♦ String constant</string>
                 <key>scope</key>
@@ -223,7 +225,7 @@
                     <key>foreground</key>
                     <string>#DDF2A4</string>
                 </dict>
-            </dict>
+            </dict>-->
             <dict>
                 <key>name</key>
                 <string>♦ String.regexp</string>
@@ -248,7 +250,7 @@
                     <string>#CF7D34</string>
                 </dict>
             </dict>
-            <dict>
+<!--             <dict>
                 <key>name</key>
                 <string>♦ String variable</string>
                 <key>scope</key>
@@ -258,7 +260,7 @@
                     <key>foreground</key>
                     <string>#8A9A95</string>
                 </dict>
-            </dict>
+            </dict> -->
             <dict>
                 <key>name</key>
                 <string>♦ Support.function</string>
@@ -348,7 +350,7 @@
                     <key>foreground</key>
                     <string>#FFFFFF</string>
                     <key>background</key>
-                    <string>#00000050</string>
+                    <string>#1C1C1C</string>
                 </dict>
                 <key>scope</key>
                 <string>entity.name.function, entity.name.type.class</string>
