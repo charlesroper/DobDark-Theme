@@ -656,6 +656,7 @@
                 <string>source.scss keyword.control.at-rule</string>
             </dict>
 
+            <!-- Sublime Linter -->
             <dict>
                 <key>name</key>
                 <string>SublimeLinter Annotations</string>
@@ -742,6 +743,73 @@
                 </dict>
             </dict>
 
+            <!-- Bracket Tags -->
+            <dict>
+                <key>name</key>
+                <string>Bracket Tag</string>
+                <key>scope</key>
+                <string>bracket.tag</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#FD971F</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Bracket Curly</string>
+                <key>scope</key>
+                <string>bracket.curly</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#66D9EF</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Bracket Round</string>
+                <key>scope</key>
+                <string>bracket.round</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#F92672</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Bracket Square</string>
+                <key>scope</key>
+                <string>bracket.square</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#A6E22E</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Bracket Angle</string>
+                <key>scope</key>
+                <string>bracket.angle</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#AE81FF</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Bracket Quote</string>
+                <key>scope</key>
+                <string>bracket.quote</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#5B0000</string>
+                </dict>
+            </dict>
 
         </array>
         <key>uuid</key>
