@@ -4,7 +4,7 @@ A dark syntax theme for Sublime Text 2
 
 ## Screenshots
 
-![DobDark Soda](http://github.com/charlesr/DobDark-tmTheme/raw/master/screenshot.png)
+![DobDark Soda](https://github.com/charlesroper/DobDark-tmTheme/raw/master/screenshot.png)
 
 ## Fonts
 
