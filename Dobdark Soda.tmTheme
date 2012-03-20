@@ -109,6 +109,17 @@
             </dict>
             <dict>
                 <key>name</key>
+                <string>decorator.python</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#777</string>
+                </dict>
+                <key>scope</key>
+                <string>source.python entity.name.function.decorator</string>
+            </dict>
+            <dict>
+                <key>name</key>
                 <string>Storage</string>
                 <key>scope</key>
                 <string>storage</string>
@@ -807,7 +818,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#5B0000</string>
+                    <string>#121212</string>
                 </dict>
             </dict>
 
