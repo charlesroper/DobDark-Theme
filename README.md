@@ -29,7 +29,7 @@ Highlighter packages.
 
 ## Screenshots
 
-![DobDark Soda](https://github.com/charlesroper/DobDark-tmTheme/raw/master/screenshot.png)
+![DobDark Soda](https://github.com/charlesroper/DobDark-Theme/raw/master/screenshot.png)
 
 ## Fonts
 
