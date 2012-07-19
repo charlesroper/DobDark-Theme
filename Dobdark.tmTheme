@@ -10,7 +10,7 @@
                 <key>settings</key>
                 <dict>
                     <key>background</key>
-                    <string>#2D2D2D</string>
+                    <string>#222222</string>
                     <key>caret</key>
                     <string>#A5A5A5</string>
                     <key>foreground</key>
@@ -20,11 +20,9 @@
                     <key>lineHighlight</key>
                     <string>#00000031</string>
                     <key>selection</key>
-                    <string>#FF0000BD</string>
-                    <key>selectionForeground</key>
-                    <string>#FFFFFF</string>
+                    <string>#494949</string>
                     <key>gutter</key>
-                    <string>#000000</string>
+                    <string>#222222</string>
                     <key>searchHighlight</key>
                     <string>#00000082</string>
                     <key>multiEditHighlight</key>
@@ -35,6 +33,8 @@
                     <string>#FFE792</string>
                     <key>findHighlightForeground</key>
                     <string>#000000</string>
+                    <key>activeGuide</key>
+                    <string>#CCCCCCB0</string>
                 </dict>
             </dict>
             <dict>
@@ -106,6 +106,17 @@
                 </dict>
                 <key>scope</key>
                 <string>source.python keyword.operator</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>decorator.python</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#777</string>
+                </dict>
+                <key>scope</key>
+                <string>source.python entity.name.function.decorator</string>
             </dict>
             <dict>
                 <key>name</key>
@@ -210,10 +221,12 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#B3FFC6</string>
+                    <string>#D7D7D7</string>
+                    <key>background</key>
+                    <string>#1C1C1C</string>
                 </dict>
             </dict>
-            <dict>
+<!--             <dict>
                 <key>name</key>
                 <string>♦ String constant</string>
                 <key>scope</key>
@@ -223,7 +236,7 @@
                     <key>foreground</key>
                     <string>#DDF2A4</string>
                 </dict>
-            </dict>
+            </dict>-->
             <dict>
                 <key>name</key>
                 <string>♦ String.regexp</string>
@@ -248,7 +261,7 @@
                     <string>#CF7D34</string>
                 </dict>
             </dict>
-            <dict>
+<!--             <dict>
                 <key>name</key>
                 <string>♦ String variable</string>
                 <key>scope</key>
@@ -258,7 +271,7 @@
                     <key>foreground</key>
                     <string>#8A9A95</string>
                 </dict>
-            </dict>
+            </dict> -->
             <dict>
                 <key>name</key>
                 <string>♦ Support.function</string>
@@ -348,7 +361,7 @@
                     <key>foreground</key>
                     <string>#FFFFFF</string>
                     <key>background</key>
-                    <string>#00000050</string>
+                    <string>#1C1C1C</string>
                 </dict>
                 <key>scope</key>
                 <string>entity.name.function, entity.name.type.class</string>
@@ -576,6 +589,17 @@
             </dict>
             <dict>
                 <key>name</key>
+                <string>Markup: quote</string>
+                <key>scope</key>
+                <string>markup.quote</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string>italic</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
                 <string>Textile: link</string>
                 <key>settings</key>
                 <dict>
@@ -642,6 +666,162 @@
                 <key>scope</key>
                 <string>source.scss keyword.control.at-rule</string>
             </dict>
+
+            <!-- Sublime Linter -->
+            <dict>
+                <key>name</key>
+                <string>SublimeLinter Annotations</string>
+                <key>scope</key>
+                <string>sublimelinter.notes</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#FFFFAA</string>
+                    <key>foreground</key>
+                    <string>#FFFFFF</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SublimeLinter Error Outline</string>
+                <key>scope</key>
+                <string>sublimelinter.outline.illegal</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#FF4A52</string>
+                    <key>foreground</key>
+                    <string>#FFFFFF</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SublimeLinter Error Underline</string>
+                <key>scope</key>
+                <string>sublimelinter.underline.illegal</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#FF0000</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SublimeLinter Warning Outline</string>
+                <key>scope</key>
+                <string>sublimelinter.outline.warning</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#DF9400</string>
+                    <key>foreground</key>
+                    <string>#FFFFFF</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SublimeLinter Warning Underline</string>
+                <key>scope</key>
+                <string>sublimelinter.underline.warning</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#FF0000</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SublimeLinter Violation Outline</string>
+                <key>scope</key>
+                <string>sublimelinter.outline.violation</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#ffffff33</string>
+                    <key>foreground</key>
+                    <string>#FFFFFF</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SublimeLinter Violation Underline</string>
+                <key>scope</key>
+                <string>sublimelinter.underline.violation</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#FF0000</string>
+                </dict>
+            </dict>
+
+            <!-- Bracket Tags -->
+            <dict>
+                <key>name</key>
+                <string>Bracket Tag</string>
+                <key>scope</key>
+                <string>bracket.tag</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#FD971F</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Bracket Curly</string>
+                <key>scope</key>
+                <string>bracket.curly</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#66D9EF</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Bracket Round</string>
+                <key>scope</key>
+                <string>bracket.round</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#F92672</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Bracket Square</string>
+                <key>scope</key>
+                <string>bracket.square</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#A6E22E</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Bracket Angle</string>
+                <key>scope</key>
+                <string>bracket.angle</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#AE81FF</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Bracket Quote</string>
+                <key>scope</key>
+                <string>bracket.quote</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#121212</string>
+                </dict>
+            </dict>
+
         </array>
         <key>uuid</key>
         <string>7009FEEB-0984-457A-BF7A-49943CD00A8B</string>
