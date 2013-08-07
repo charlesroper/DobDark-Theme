@@ -33,8 +33,12 @@
                     <string>#FFE792</string>
                     <key>findHighlightForeground</key>
                     <string>#000000</string>
+                    <key>guide</key>
+                    <string>#3b5364</string>
+                    <key>stackGuide</key>
+                    <string>#5a7b92</string>
                     <key>activeGuide</key>
-                    <string>#CCCCCCB0</string>
+                    <string>#ffc60050</string>
                 </dict>
             </dict>
             <dict>
