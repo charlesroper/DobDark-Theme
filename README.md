@@ -1,6 +1,6 @@
 # DobDark Theme
 
-A dark syntax theme for Sublime Text 2.
+A dark syntax theme for Sublime Text.
 
 ## Description
 
