@@ -757,6 +757,17 @@
                     <string>#FF0000</string>
                 </dict>
             </dict>
+            <dict>
+                <key>name</key>
+                <string>User-defined constant</string>
+                <key>scope</key>
+                <string>constant.character, constant.other</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#AE81FF</string>
+                </dict>
+            </dict>
 
             <!-- GitGutter styles -->
             <dict>
